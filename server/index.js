@@ -7,7 +7,7 @@ var path = require('path');
 
 var port = process.env.PORT || 8080;
 
-// var db = require('./database');
+var db = require('./database');
 // var routes = require('./application/routes');
 
 app.use(bodyParser.json());
